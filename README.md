@@ -1,5 +1,5 @@
 # <u>Azure Revelations</u>
-
+## This is now a legacy repository for the code in the project and is now defunct. A revamp is planned in the near future
 ## Team Members:
 
 - Jeremy Lai
