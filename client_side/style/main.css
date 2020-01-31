@@ -1,0 +1,86 @@
+html {overflow: -moz-scrollbars-vertical;}
+
+body {
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+header{
+    border-radius: 14px;
+    border: 3px grey solid;
+    margin-top:36px;
+    height: 64px;
+
+    display:flex;
+    align-items: baseline;
+    justify-content:flex-end;
+    background-color: gray;
+}
+
+
+.header_btn{
+    text-decoration:none;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    width: 250px;
+}
+
+.btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #3C3D3F;
+  color: #ffffff;
+}
+
+#login_status {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+    color: black;
+    padding: 20px 20px 10px 20px;
+    width: 250px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align:center;
+}
+
+.alert{
+    color: red;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#error_box{
+    color: red;
+    visibility:hidden;
+}
+
+#error_box::before { 
+  content: "Error: ";
+}
+
+#game-wrapper {
+    display: flex;
+    flex-direction: row;
+}

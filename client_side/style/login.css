@@ -1,0 +1,36 @@
+#signin_selection {
+    border-radius: 14px;
+    border: 3px grey solid;
+    margin-top: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#signin_selection #title {
+    margin:-20px -12px 20px -12px;
+    padding:10px 25px 10px 25px;
+    background-color: grey;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 30px;
+}
+
+#signin_selection #signin_choices {
+    display: flex;
+    flex-direction: row;
+}
+
+#signin_selection .signin_btn {
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#signin_selection .google_signin_btn {
+    background-image: url("../assets/login/google-signin-btn.png");
+}

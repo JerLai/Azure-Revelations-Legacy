@@ -1,0 +1,11 @@
+{
+  "worldWidth": 480,
+  "worldHeight": 480,
+  "spriteWidth": 48,
+  "spriteHeight": 48,
+  "cellWidth": 48,
+  "cellHeight": 48,
+  "spriteSpeed": 1,
+  "moveDelay": 500,
+  "chunkLength": 20
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Project Azure Revelations</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/chat.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div id="login_status"></div>
+        <a href="/auth/logout" id="logout" class="header_btn btn hidden">Logout</a>
+        <a href="/auth/login" id="login" class="header_btn btn hidden">Login or Sign up</a>
+    </header>
+    
+    <p id="error_box"></p>
+    <div id="game-wrapper"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    
+    <!-- Client Side script -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+    <script src="js/api.js"></script>   <!-- This is where the frontend socket is instantiated -->
+    <script src="js/Scenes/StartScene.js"></script>
+    <script src="js/Scenes/SignupScene.js"></script>
+    <script src="js/Scenes/MenuScene.js"></script>
+    <script src="js/Scenes/RoomScene.js"></script>
+    <script src="js/Scenes/MatchSetupScene.js"></script>
+    <script src="js/Scenes/MatchScene.js"></script>
+    <script src="js/Scenes//ResultScene.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
